@@ -1,9 +1,9 @@
 # 💬 Chat with Your Database
 
-This is a Streamlit-based application that allows users to interact with a MySQL database by chatting with an AI model. It helps users generate SQL queries based on natural language input and provides natural language responses based on the SQL query results. The app is integrated with Langchain's `ChatOllama` Llama 3.1 8b model and uses MySQL to perform database operations.
+This is a Streamlit-based application that allows users to interact with a database by chatting with an AI model. It helps users generate SQL queries based on natural language input and provides natural language responses based on the SQL query results. The app is integrated with Langchain's `ChatOllama` Llama 3.1 8b model and uses MySQL to perform database operations.
 
 ## ⚡ Features
-- 🖥️ **Connect to a MySQL database**: Enter your host, user, password, and port to establish a connection.
+- 🖥️ **Connect to a database**: Enter your host, user, password, and port to establish a connection.
 - 💬 **Chat-based interface**: Ask questions in plain English and receive SQL queries as responses.
 - 🛠️ **SQL generation**: Automatically generates SQL queries based on the schema of the connected database.
 - 🔍 **Natural language responses**: Returns results from the database in an easy-to-understand format.
@@ -36,7 +36,7 @@ To launch the Streamlit app, run the following command in your terminal:
 # 🚀 Usage
 Database Connection:
 
-In the sidebar, enter the following details to connect to your MySQL database:
+In the sidebar, enter the following details to connect to your database:
 
 - 🌐 Host
 - 👤 User
@@ -53,7 +53,7 @@ Click 📋 Fetch Databases to retrieve available databases from the server and s
 # 🖼️ Demo
  Here’s a demo of the application in action:
 
- In this example, the user connects to a MySQL database named `agrisarathi`, asks questions, and receives both SQL queries and natural language responses from the AI.
+ In this example, the user connects to a  database named `agrisarathi`, asks questions, and receives both SQL queries and natural language responses from the AI.
 
 ![alt text](samplenlp.png)
 ![alt text](ab11f6fe-b311-4d8c-96fa-43d42a0f449d.gif)
