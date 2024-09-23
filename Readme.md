@@ -50,18 +50,29 @@ Click 📋 Fetch Databases to retrieve available databases from the server and s
 - Conversation History:
  The conversation history between you and the AI is displayed in the chat interface. Both user queries and AI-generated responses are shown.
 
+# 🖼️ Demo
+ Here’s a demo of the application in action:
+
+ In this example, the user connects to a MySQL database named `agrisarathi`, asks questions, and receives both SQL queries and natural language responses from the AI.
+
+![alt text](samplenlp.png)
+![alt text](ab11f6fe-b311-4d8c-96fa-43d42a0f449d.gif)
+
+
+
+
 # 🧑‍💻 Key Components
 - get_database_names()
- Fetches and returns a list of available databases from the MySQL server.
+  Fetches and returns a list of available databases from the MySQL server.
 
-start_database()
-Establishes a connection with the selected database using MySQL connector and returns a SQLDatabase object.
+- start_database()
+  Establishes a connection with the selected database using MySQL connector and returns a SQLDatabase object.
 
-get_sqlchain()
-Generates a Langchain SQL query based on user input and database schema.
+- get_sqlchain()
+  Generates a Langchain SQL query based on user input and database schema.
 
-get_response()
-Handles generating the SQL query, running it, and converting the result into a natural language response.
+- get_response()
+ Handles generating the SQL query, running it, and converting the result into a natural language response.
 
 # 🎨 Streamlit Chat Interface
 Displays the conversation history and allows users to type new messages.
